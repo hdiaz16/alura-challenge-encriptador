@@ -1,0 +1,190 @@
+
+*{
+    font-family: sans-serif;
+}
+
+.container{
+
+    display: grid;
+    grid-template-columns: 60% 40%;
+    grid-template-rows: 1000px;
+    background-color: #CED4DA;
+}
+
+div#col-1 textarea{
+    border-color: #CED4DA;
+    background-color: #CED4DA;
+}
+
+textarea#mostrarTextoEn {
+
+    font-size: 32px;
+    width: 95%;
+    border-color: #FFFFFF;
+    text-align: center;
+    border: none;
+    overflow: auto;
+    outline: none;
+
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+
+    resize: none;
+}
+
+.container div#col-1 textarea{
+    position: absolute;
+    width: 577px;
+    height: 48px;
+    left: 140px;
+    top: 168px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 150%;
+    /* identical to box height, or 48px */
+
+
+    /* Dark blue/dark-blue-300 */
+
+    color: #0A3871;
+}
+
+#info{
+    width: 100%;
+}
+
+.container div#col-1 .botones{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 24px;
+
+    position: absolute;
+    width: 580px;
+    height: 67px;
+    left: 170px;
+    top: 885px;
+}
+
+.botones #encritador{
+    color:#FFFFFF;
+    box-sizing: border-box;
+    padding: 24px;
+
+
+    width: 228px;
+    height: 67px;
+    text-align: center;
+
+    /* Dark blue/dark-blue-300 */
+
+    background: #0A3871;
+    border-radius: 24px;
+
+}
+
+
+#copiarTexto{
+
+    padding: 24px;
+    width: 228px;
+    height: 67px;
+
+    /* Dark blue/dark-blue-300 */
+
+    background: #0A3871;
+    border-radius: 24px;
+    color: #ffffff;
+    text-align: center;
+
+}
+
+#copiar{
+    position: absolute;
+    top: 30%;
+    left: 10%;
+    margin: -25px 0 0 -25px;
+    text-align: center;
+}
+
+
+
+
+.botones #desencripatodr{
+    box-sizing: border-box;
+
+    /* Auto layout */
+
+    padding: 24px;
+    gap: 8px;
+
+    width: 228px;
+    height: 67px;
+
+    /* Light gray */
+
+    background: #D8DFE8;
+    /* Dark blue/dark-blue-300 */
+
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+}
+
+.container div#col-1 div#logo{
+
+    padding-top: 5%;
+
+}
+
+
+.container div#col-2 {
+    position: absolute;
+    width: 400px;
+    height: 944px;
+    left: 800px;
+    top: 40px;
+    
+    /* White */
+    
+    background: #FFFFFF;
+    /* shadow */
+    
+    box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.08);
+    border-radius: 32px;
+     
+    
+}
+
+#textoEimagen{
+
+    position: absolute;
+    top: 30%;
+    left: 10%;
+    margin: -25px 0 0 -25px;
+    text-align: center;
+}
+
+textarea {
+    font-family: sans-serif;
+}
+
+
+
+.info{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 24px;
+
+    position: absolute;
+    width: 580px;
+    height: 67px;
+    left: 170px;
+    top: 840px;
+}
